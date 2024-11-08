@@ -89,17 +89,19 @@ div.campo label{
 }
 
 div.campo i{
+    display: inline-block;
     color: white;
-    height: 30px;
+    height: 20px;
     font-size: 2em;
-    width: 30px;
-    padding: 5px;
-    padding-bottom: 19px;
+    width: 26px;
+    padding: 3px;
+    
+    
 }
 div.campo input{
-    width: calc(100% - 56px);
-    transform: translate(2.999999px, -14px);
-    border: 1px solid #dcf1f1;
+    width: calc(100% - 52px);
+    transform: translate(2.999999px, -12px);
+    border: 2px solid var(--lilás);
     background-color: #dcf1f1;
     font-size: 1em;
     border-radius: 8px;
