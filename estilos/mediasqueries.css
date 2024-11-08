@@ -5,6 +5,17 @@
     body{
         background:linear-gradient( to top, #49a09d, #5f2c82 );
     }
+
+    form div.campo{
+        width: 97%;
+        
+        
+    }
+    div.campo input{
+        transform: translate(2.999999px, -13px);
+        width: calc(100% - 52px);
+        
+    }
    
 
     section#login{
@@ -30,6 +41,10 @@
         float: right;
         padding: 23px;
     }
+
+    section#login p{
+        margin: 14px 0px;
+    }
     
 }
 
@@ -39,6 +54,19 @@
         background:linear-gradient( to top, #49a09d, #5f2c82 );
     }
 
+    
+    form div.campo{
+        width: 97%;
+        
+        
+    }
+    div.campo input{
+        
+        width: calc(100% - 52px);
+        transform: translate(2.999999px, -13px);
+        /*Transform sempre embaixo*/
+    }
+
     section#login{
         display: block;
         width: 79vw;
@@ -46,6 +74,12 @@
         border-radius: 20px;
         
         
+    }
+
+    div#formulario p {
+        font-size: 0.8em;
+        text-align: justify;
+        margin: 17px 0px;
     }
 
     
